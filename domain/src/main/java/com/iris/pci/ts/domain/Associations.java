@@ -26,7 +26,19 @@ public class Associations {
 			tokenRequester._setCompany( null );
 			
 		}
+	}
 
+	public static class Request {
+
+		public static void link(TokenRequester tokenRequester, Token token) {
+			token._setRequester( tokenRequester);
+			tokenRequester._getTokens().add( token );
+		}
+		
+		public static void unlink(TokenRequester tokenRequester, Token token) {
+			tokenRequester._getTokens().remove( token );
+			token._setRequester( null );
+		}
 	}
 
 }

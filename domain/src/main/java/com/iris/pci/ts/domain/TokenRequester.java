@@ -1,10 +1,15 @@
 package com.iris.pci.ts.domain;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class TokenRequester {
 	
 	private Application application;
 	private Company company;
 	private OperationalStatus status = OperationalStatus.ENABLED;
+	
+	private Set<Token> tokens = new HashSet<>();
 	
 	TokenRequester() {}
 	
@@ -76,6 +81,14 @@ public class TokenRequester {
 
 	void _setCompany(Company c) {
 		this.company = c;
+	}
+
+	Set<Token> _getTokens() {
+		return tokens;
+	}
+	
+	public Set<Token> getTokens() {
+		return new HashSet<>( tokens );
 	}
 	
 }
