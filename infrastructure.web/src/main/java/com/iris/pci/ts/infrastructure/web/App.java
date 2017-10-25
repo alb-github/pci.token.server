@@ -1,4 +1,4 @@
-package com.iris.pci.ts.domain;
+package com.iris.pci.ts.infrastructure.web;
 
 /**
  * Hello world!
