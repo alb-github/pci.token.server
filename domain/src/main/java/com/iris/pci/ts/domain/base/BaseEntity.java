@@ -1,4 +1,4 @@
-package com.iris.pci.ts.domain.util;
+package com.iris.pci.ts.domain.base;
 
 public class BaseEntity {
 

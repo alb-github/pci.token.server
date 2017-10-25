@@ -1,4 +1,4 @@
-package com.iris.pci.ts.domain;
+package com.iris.pci.ts.domain.model;
 
 import java.util.HashSet;
 import java.util.Set;
