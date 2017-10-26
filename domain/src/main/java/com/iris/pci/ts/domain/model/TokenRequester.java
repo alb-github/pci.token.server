@@ -3,7 +3,9 @@ package com.iris.pci.ts.domain.model;
 import java.util.HashSet;
 import java.util.Set;
 
-public class TokenRequester {
+import com.iris.pci.ts.domain.base.VersionedEntityLink;
+
+public class TokenRequester extends VersionedEntityLink {
 	
 	private Application application;
 	private Company company;
