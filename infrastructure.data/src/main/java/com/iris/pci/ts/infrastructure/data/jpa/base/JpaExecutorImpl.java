@@ -3,9 +3,9 @@ package com.iris.pci.ts.infrastructure.data.jpa.base;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityTransaction;
 
-import com.iris.pci.ts.usecase.UseCaseException;
-import com.iris.pci.ts.usecase.util.UseCase;
-import com.iris.pci.ts.usecase.util.UseCaseExecutor;
+import com.iris.pci.ts.usecases.UseCaseException;
+import com.iris.pci.ts.usecases.util.UseCase;
+import com.iris.pci.ts.usecases.util.UseCaseExecutor;
 
 class JpaExecutorImpl implements UseCaseExecutor {
 

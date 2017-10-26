@@ -1,4 +1,4 @@
-package com.iris.pci.ts.usecase;
+package com.iris.pci.ts.usecases;
 
 import com.iris.pci.ts.domain.exception.BusinessException;
 

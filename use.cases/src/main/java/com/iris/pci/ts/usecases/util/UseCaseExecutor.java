@@ -1,6 +1,6 @@
-package com.iris.pci.ts.usecase.util;
+package com.iris.pci.ts.usecases.util;
 
-import com.iris.pci.ts.usecase.UseCaseException;
+import com.iris.pci.ts.usecases.UseCaseException;
 
 public interface UseCaseExecutor {
 
