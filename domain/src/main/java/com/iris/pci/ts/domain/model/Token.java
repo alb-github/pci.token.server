@@ -3,7 +3,9 @@ package com.iris.pci.ts.domain.model;
 import java.time.LocalDate;
 import java.util.UUID;
 
-public class Token {
+import com.iris.pci.ts.domain.base.BaseEntity;
+
+public class Token extends BaseEntity {
 	
 	private UUID uuid;
 	private String keyId;

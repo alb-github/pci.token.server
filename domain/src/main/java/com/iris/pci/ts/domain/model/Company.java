@@ -3,9 +3,9 @@ package com.iris.pci.ts.domain.model;
 import java.util.HashSet;
 import java.util.Set;
 
-import com.iris.pci.ts.domain.base.BaseEntity;
+import com.iris.pci.ts.domain.base.VersionedEntity;
 
-public class Company extends BaseEntity {
+public class Company extends VersionedEntity {
 	
 	private String name;
 	private OperationalStatus status = OperationalStatus.ENABLED;
