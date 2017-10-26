@@ -84,11 +84,11 @@ public class Token extends BaseEntity {
 	public String toString() {
 		return "Token [uuid=" + uuid + ", "
 				+ "keyId=" + keyId 
-				+ ", encryptedPan=" 
-				+ encryptedPan 
+				+ ", encryptedPan=" + encryptedPan 
 				+ ", created=" + created
 				+ ", validThru=" + validThru 
-				+ ", lastUsed=" + lastUsed + "]";
+				+ ", lastUsed=" + lastUsed 
+			+ "]";
 	}
 
 	public TokenRequester getRequester() {

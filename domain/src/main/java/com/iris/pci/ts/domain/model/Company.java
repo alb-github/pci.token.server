@@ -26,6 +26,10 @@ public class Company extends VersionedEntity {
 		this.status = OperationalStatus.DISABLED;
 	}
 	
+	public boolean isEnabled() {
+		return this.status.equals( OperationalStatus.ENABLED );
+	}
+	
 	public String getName() {
 		return name;
 	}

@@ -27,6 +27,10 @@ public class TokenRequester extends VersionedEntityLink {
 		this.status = OperationalStatus.DISABLED;
 	}
 	
+	public boolean isEnabled() {
+		return this.status.equals( OperationalStatus.ENABLED );
+	}
+	
 	public OperationalStatus getStatus() {
 		return status;
 	}

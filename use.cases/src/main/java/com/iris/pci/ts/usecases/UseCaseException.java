@@ -3,7 +3,6 @@ package com.iris.pci.ts.usecases;
 import com.iris.pci.ts.domain.exception.BusinessException;
 
 public class UseCaseException extends Exception {
-	private static final long serialVersionUID = 1L;
 
 	public UseCaseException() {
 	}
