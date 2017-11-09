@@ -2,10 +2,10 @@ package com.iris.pci.ts.domain.base;
 
 public class VersionedEntityLink {
 
-	private Long id;
+	private long version = 0;
 	
-	public Long getId() {
-		return id;
+	long getVersion() {
+		return version;
 	}
 	
 }
